@@ -22,7 +22,13 @@ let car1 = {
 
 // TRY IT: Create an object representing your own car (past, present, or future!)
 
-
+let car2 = { 
+	year: 2024,
+	make: "Lexus",
+	model: "IS 350",
+	style: "Sedan",
+	Color: "Black",
+}
 
 /**** ACCESSING PROPERTIES OF OBJECTS ****/
 

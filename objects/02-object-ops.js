@@ -17,6 +17,7 @@
 
 // EXAMPLE: Let's loop through the object below and print the value for each key.
 
+/*
 let sunsetDiner = {
 	name: "The Sunset Diner",
 	location: "Pleasant Pines, AZ",
@@ -71,6 +72,7 @@ for (let restaurant of restaurants) {
 	console.log(`\nNext time you take a road trip through the Southwest, don't miss ${restaurant.name} in ${restaurant.location}, best in class for its ${restaurant.cuisine} fare. Signature dishes include the mouth-watering ${restaurant.knownFor[0]}, ${restaurant.knownFor[1]}, and the delicious ${restaurant.knownFor[2]}. \nPrice rating: ${restaurant.priceRating}\n`);
 }
 
+*/
 
 /**** YOUR TURN! ****/
 
@@ -81,6 +83,17 @@ for (let restaurant of restaurants) {
 		- Practice nesting for loops and for...in loops.
 		- Loop back through, this time printing a template literal that uses the values for each object.
 */
+ let attractions = {
+	Name: "Ballpark Village",
+	Location: "St. Louis, MO",
+	Cuisine: "Hot Dogs", 
+	standingCapacity: 2600,
+
+ }
+ for (let thisKey in attractions) {
+	console.log(thisKey(attractions)[$Name])
+ }
+
 
 /*
 	Create two objects representing different local attractions (zoo, gardens, museums, etc), each with the following properties: name, location, adultTicketPrice, childTicketPrice, and famousFeatures (array of three strings). Be creative! Place the objects in an array.
